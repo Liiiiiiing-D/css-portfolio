@@ -1,11 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>grid</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://unpkg.com/98.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>hi</h1>
+  <div class="window" class="media-queries" >
+    <div class="title-bar">
+      <div class="title-bar-text">
+        Media Queries
+      </div>
+    </div>
+    <div class="window-body">
+        <img src="media queries.png" style="height: 70px; width:100%;" >
+       <a href="media-queries/"> <button>Click me</button></a>
+    </div>
+  </div>
+  <div class="window" class="aaa">
+    <div class="title-bar">
+      <div class="title-bar-text">Background Images</div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+       <a href="background-image/"> <button aria-label="Maximize"></button></a>
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="window-body">
+        <input type="checkbox" id="example1">
+        <label for="example1">I want see some background</label>
+      
+    </div>
+  </div>
+  <div class="title-bar">
+    <div class="title-bar-text">Variable Fonts</div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+  
+  <br />
+  
+  <div class="title-bar">
+    <div class="title-bar-text">CSS Columns</div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Restore"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+  
+  <br />
+  
+  <div class="title-bar">
+    <div class="title-bar-text">Transitions</div>
+    <div class="title-bar-controls">
+      <button aria-label="Help"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+
+  <div class="window" >
+    <div class="title-bar">
+      <div class="title-bar-text">Pseudo</div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="window-body">
+  <div class="field-row">
+    <input id="radio5" type="radio" name="first-example">
+    <label for="radio5">Pseudo Elements</label>
+  </div>
+  <div class="field-row">
+    <input id="radio6" type="radio" name="first-example">
+    <label for="radio6">Pseudo Elements</label>
+  </div>
+    <button>OK</button>
+  </div>
+
+<div class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">Custom scroll bars</div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+    <select>
+        <option>(option)</option>
+        <option>Custom scroll bars</option>
+        <option>vmin + vmax</option>
+    </select>
+  </div>
+</div>
+
+<div class="window">
+    <div class="title-bar">
+      <div class="title-bar-text"></div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="window-body">
+        <div class="field-row" >
+            <label for="range21">HTML video</label>
+            <label for="range22">1%</label>
+            <input id="range22" type="range" min="1" max="11" value="5" />
+            <label for="range23">100%</label>
+          </div>
+          <div class="field-row">
+            <label for="range24">HTML audio</label>
+            <div class="is-vertical">
+              <input id="range24" class="has-box-indicator" type="range" min="1" max="3" step="1" value="2" />
+            </div>
+          </div>
+    </div>
+  </div>
 </body>
 </html>
